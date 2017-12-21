@@ -1,9 +1,5 @@
 # Project Euler Solutions
 
-
-
-Problems:
-
 Problem Number | Answer | Language(s)
 --- | --- | ---
 [Problem 1](https://github.com/MunamWasi/Project-Euler/tree/master/Problem_1) | <details><summary></summary>233168</details> | Python
