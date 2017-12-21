@@ -1,20 +1,21 @@
 number = 600851475143
-
-factors = [0]
-
+value = 0
+answer = 0
 def isprime(x):
-    for i in range(x):
-        i+=1
-        if x % i == 0:
-            return False
-    return True 
+    if x > 1:
+       # check for factors
+       for i in range(2,x):
+           if (x % i) == 0:
+               return False
+       return True
+    else:
+        return True
 
-for i in range(600851475143):
+
+for i in range(775147):
     i+=1
     if 600851475143 % i == 0:
         if isprime(i):
-            factors.append(i)
-value = sum(factors)
+            answer = i
 
-print value
-
+print(answer)
