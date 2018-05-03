@@ -1,21 +1,8 @@
-number = 600851475143
-value = 0
-answer = 0
-def isprime(x):
-    if x > 1:
-       # check for factors
-       for i in range(2,x):
-           if (x % i) == 0:
-               return False
-       return True
-    else:
-        return True
+'''
+Problem 4
 
+A palindromic number reads the same both ways. The largest palindrome made from the product of two 2-digit numbers is 9009 = 91 × 99.
 
-for i in range(775147):
-    i+=1
-    if 600851475143 % i == 0:
-        if isprime(i):
-            answer = i
+Find the largest palindrome made from the product of two 3-digit numbers.
+'''
 
-print(answer)
